@@ -6,6 +6,10 @@ body {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+html { 
+  scroll-behavior: smooth; 
 }
 
 ul {
@@ -24,10 +28,199 @@ a {
   color: rgba(0, 0, 0, 0.65);
 }
 
+#top{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0.5vw 10vw;
+  background-color:rgba(0, 0, 0, 0.75);
+}
+#top li{
+  margin-right: 1vw;
+}
+.top-links{
+  color: #fff;
+}
+
+
 #products {
   background-color: #272a31;
   color: #fff;
   text-align: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item{
+  margin-left: 3vw;
+}
+.nav-item a{
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 600;
+}
+#nav-border{
+  margin-left: 5vw;
+  border: solid 4px #ec5242;
+  padding: 0.5vw 1vw;
+}
+#header{
+  background-image: url("media/sofi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#logo img{
+  margin: 0.5vw;
+  width: 70%;
+  height: auto;
+}
+b {
+  font-weight: 900;
+}
+.product{
+  background-color: rgba(255, 255, 255, 0.08);
+}
+#pps{
+  text-align: center;
+}
+.pp{
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+#patners{
+  padding: 2vw 0 3vw 0;
+  background-color: #272a31;
+  text-align: center;
+}
+#patners h2{
+  color: #d3d3d3;
+  font-weight: 400;
+}
+#patners ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+.pat-item{
+  color: #d3d3d3;
+  margin-right: 2.5vw;
+}
+footer{
+  padding: 3vw 10vw;
+  text-align: center;
+  
+}
+footer img{
+  float: left;
+  margin-right: 3vw;
+}
+footer div{
+  text-align: start;
+}
+#footer-p{
+  margin-bottom: 0.5vw;
+}
+.images{
+  background-image: url("media/transp.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 50%
+}
+
+@media only screen and (min-width: 768px) {
+  #hum{
+    display: none;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+    background-color: #fff;
+  }
+
+  #headline-section{
+    padding: 10vw 40vw 10vw 10vw;
+  }
+
+  #headline h1 {
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 100%;
+    margin-bottom: 2vw;
+  }
+  #headline h2 {
+    font-weight: 400;
+    margin-bottom: 0.5vw;
+  }
+  #headline + p {
+    border: solid 2px #fff;
+    padding: 1vw;
+    margin-bottom: 3vw;
+  }
+  p ~ h2 + p {
+    margin-top: 1vw;
+    font-size: 110%;
+  }
+  hr{
+    width: 3vw;
+    margin: auto;
+    border: solid 1px #ec5242;
+    margin-top: 1vw;
+  }
+  #products{
+    padding: 3vw 0 7vw 0;
+  }
+
+  #products .container{
+    margin: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product{
+    margin-right: 2px;
+    width: 15vw;
+    padding: 1.5vw 0.5vw;
+  }
+  h3{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 100%;
+  }
+  #pps{
+    padding: 3vw 0 5vw 0;
+  }
+  #pps .container{
+    margin-top: 3vw;
+    display: grid;
+    grid: repeat(3, auto)/repeat(2, auto);
+    grid-gap: 2.5vw 0.5vw;
+    padding: 0 10vw;
+  }
+
+  .images {
+    margin-right: 1vw;
+    padding: 0.8vw 0 0 0.8vw;
+  }
+  .images img{
+width: 10vw;
+  }
+
+  .pp hr {
+    margin: 1vw 0 0.5vw 0;
+    width: 1vw;
+    border: solid 1px #d3d3d3;
+  }
+  #more{
+    display: none;
+  }
+
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -36,9 +229,6 @@ a {
   }
 
   #header {
-    background-image: url("media/sofi.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 0 2.5vw;
     padding-bottom: 20vw;
   }
@@ -59,9 +249,7 @@ a {
     font-weight: 900;
   }
 
-  b {
-    font-weight: 900;
-  }
+
 
   #products {
     padding: 5vw 2.5vw;
@@ -77,7 +265,6 @@ a {
   }
 
   .product {
-    background-color: rgba(255, 255, 255, 0.08);
     display: flex;
     align-items: center;
     padding: 3vw 0 3vw 3vw;
@@ -128,15 +315,10 @@ a {
 
   #pps {
     padding: 5vw 2.5vw;
-    text-align: center;
   }
 
   .pp {
-    display: flex;
-    align-items: center;
     margin-bottom: 5vw;
-    text-align: start;
-    z-index: 2;
   }
 
   .images {
