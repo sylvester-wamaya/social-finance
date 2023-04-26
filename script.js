@@ -1,6 +1,4 @@
-let six = 6
-if (six === 6) {
-    return true;
-} else {
-    return false
-}
+const navBar = document.querySelector('nav');
+navBar.addEventListener('click', () => {
+  navBar.style.background = 'red';
+});
