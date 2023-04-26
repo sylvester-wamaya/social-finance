@@ -11,62 +11,116 @@
 <link rel="icon" type="image/png" sizes="32x32" href="media/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/favicon_io/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header>
-        <div>
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#">English</a></li>
-                <li><a href="#">My Page</a></li>
-                <li><a href="#">Logout</a></li>                
-            </ul>
-        </div>
-        <nav>
-            <div>
-                <a href="#"><img src="media/favicon_io/favicon.ico" alt="logo"></a>
-                <a href="#"><i class="fa fa-bars"></i></a>
+    <section id="header">
+        <header>
+            <div class="mobile-hide">
                 <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">cc Program</a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">My Page</a></li>
+                    <li><a href="#">Logout</a></li>                
                 </ul>
-            </div>        
-        </nav>
-    </header>
-    <section>
-        <h2>"Hello, sharing world!</h2>
-        <h1>Creative Commons Global Summit 2015</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur commodi id unde quidem tenetur. Esse, eaque delectus nihil?</p>
-        <h2><b>2015.10.15(THU) ~ 16(FRI)</b></h2>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-    </section>
-    <section>
-        <h2>Lorem, ipsum</h2>
+            </div>
+            <nav>
+                <div>
+                    <a href="#" class="mobile-hide"><img src="media/favicon_io/favicon.ico" alt="logo"></a>
+                    <a href="#"><i id="hum" class="fa fa-bars fa-3x"></i></a>
+                    <ul class="mobile-hide">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sponsor</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">cc Program</a></li>
+                    </ul>
+                </div>        
+            </nav>
+        </header>
+        <section>
+            <div id="headline" class="orange">
+                <h2>"Hello, sharing world!</h2>
+                <h1>CREATIVE COMMONS GLOBAL SUMMIT <br> 2015</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint, repellat enim nobis atque accusamus praesentium hic eaque error fuga repellendus quos iusto eveniet ipsum porro delectus, nihil illum id!</p>
+            <h2 class="grey"><b>2015.10.15(THU) ~ 16(FRI)</b></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur </p>
+        </section>
+    </section>   
+    <section id="products">
+        <h2 class="heading">Lorem, ipsum</h2>
         <hr>
-        <div>
-            <img src="media/favicon_io/favicon.ico" alt="image">
-            <h2>Lecture</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?</p>
+        <div class="container">
+            <div class="product">
+                <img src="media/favicon_io/favicon.ico" alt="image">
+                <h2 class="title orange">Lecture</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?</p>
+            </div>
+            <div class="product">
+                <img src="media/favicon_io/favicon.ico" alt="image">
+                <h2 class="title orange">Lecture</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?</p>
+            </div>
+            <div class="product">
+                <img src="media/favicon_io/favicon.ico" alt="image">
+                <h2 class="title orange">Lecture</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?</p>
+            </div>
         </div>
         <h3>Lorem, ipsum dolor</h3>
     </section>
-    <section>
-        <h2>Lorem, ipsum</h2>
-        <div>
-            <img src="media/favicon_io/favicon.ico" alt="image">
-            <img src="media/favicon_io/favicon.ico" alt="image">
-            <h2>Lorem, ipsum</h2>
-            <hr>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates.</p>
+    <section id="pps">
+        <h2 class="heading">Lorem, ipsum</h2>
+        <hr id="hr">
+        <div class="container">
+            <div class="pp">
+                <div class="images">
+                    <img class="back" src="media/favicon_io/favicon.ico" alt="image">
+                    <img class="front"  src="media/favicon_io/favicon.ico" alt="image">
+                </div>
+                <div>
+                    <h2 class="title">Lorem, ipsum</h2>
+                    <p class="orange">Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates.</p>
+                </div>
+            </div>
+            <div class="pp">
+                <div class="images">
+                    <img class="back" src="media/favicon_io/favicon.ico" alt="image">
+                    <img class="front"  src="media/favicon_io/favicon.ico" alt="image">
+                </div>
+                <div>
+                    <h2 class="title">Lorem, ipsum</h2>
+                    <p class="orange">Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates.</p>
+                </div>
+            </div>
+
+            <div class="pp">
+                <div class="images">
+                    <img class="back" src="media/favicon_io/favicon.ico" alt="image">
+                    <img class="front"  src="media/favicon_io/favicon.ico" alt="image">
+                </div>
+                <div>
+                    <h2 class="title">Lorem, ipsum</h2>
+                    <p class="orange">Lorem ipsum dolor sit amet.</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates.</p>
+                </div>
+            </div>
         </div>
+        <button type="button" id="more">MORE <i class="fa fa-chevron-down orange"></i></button>
     </section>
-    <section>
+    <section id="patners">
         <h2>Lorem</h2>
         <ul>
             <li>Safaricom</li>
@@ -80,5 +134,6 @@
         <img src="media/favicon_io/favicon.ico" alt="logo">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, nihil.</p>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>

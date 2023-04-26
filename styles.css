@@ -1,0 +1,183 @@
+body {
+  margin: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.grey {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#products {
+  background-color: #272a31;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-hide {
+    display: none;
+  }
+
+  #header {
+    background-image: url("media/sofi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 2.5vw;
+    padding-bottom: 20vw;
+  }
+
+  #hum {
+    margin-top: 4vw;
+    margin-bottom: 10vw;
+    color: #272a31;
+  }
+
+  #headline {
+    margin-bottom: 3vw;
+  }
+
+  #headline h1 {
+    font-size: 8vw;
+    line-height: 9vw;
+    font-weight: 900;
+  }
+
+  b {
+    font-weight: 900;
+  }
+
+  #products {
+    padding: 5vw 2.5vw;
+  }
+
+  .heading {
+    font-weight: 400;
+    margin-bottom: 2.5vw;
+  }
+
+  hr {
+    width: 8vw;
+  }
+
+  .product {
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    align-items: center;
+    padding: 3vw 0 3vw 3vw;
+    margin-bottom: 2vw;
+  }
+
+  .product img {
+    width: 5vw;
+  }
+
+  .product p {
+    margin-left: 5vw;
+    text-align: start;
+  }
+
+  p ~ h2 {
+    margin-bottom: 2vw;
+  }
+
+  .product img,
+  .product h2,
+  .product p {
+    margin-right: 3vw;
+  }
+
+  #headline h2 {
+    font-weight: 400;
+  }
+
+  #headline + p {
+    border: solid 0.5vw #fff;
+    padding: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .title {
+    font-size: 125%;
+  }
+
+  #products h3 {
+    padding: 5vw 8vw;
+    background-color: #ec5242;
+    color: #fff;
+    width: fit-content;
+    margin: 5vw auto 0 auto;
+    font-weight: 400;
+  }
+
+  #pps {
+    padding: 5vw 2.5vw;
+    text-align: center;
+  }
+
+  .pp {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5vw;
+    text-align: start;
+    z-index: 2;
+  }
+
+  .images {
+    margin-right: 2vw;
+    padding: 2vw;
+  }
+
+  .pp .title {
+    margin-bottom: 1vw;
+  }
+
+  .pp hr {
+    margin: 1vw 0 2vw 0;
+    width: 2.5vw;
+    border: solid 1px #d3d3d3;
+  }
+
+  #products hr {
+    border: solid 1px #ec5242;
+    margin: 0 auto 5vw auto;
+  }
+
+  #hr {
+    margin: auto;
+    border: solid 1px #ec5242;
+  }
+
+  #more {
+    width: 100%;
+    padding: 2vw 0;
+    background-color: #fff;
+    border: solid 1px #d3d3d3;
+    margin-bottom: 3vw;
+  }
+
+  #more i {
+    margin-left: 1vw;
+  }
+
+  #patners,
+  footer {
+    display: none;
+  }
+}
