@@ -11,56 +11,80 @@
 <link rel="icon" type="image/png" sizes="32x32" href="media/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/favicon_io/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <header>
-        <div>
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#" ><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#">English</a></li>
-                <li><a href="#">My Page</a></li>
-                <li><a href="#">Logout</a></li>                
-            </ul>
-        </div>
-        <nav>
-            <div>
-                <a href="#"><img src="media/favicon_io/favicon.ico" alt="logo"></a>
-                <a href="#"><i class="fa fa-bars"></i></a>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Program</a></li>
-                    <li><a href="#">Join</a></li>
-                    <li><a href="#">Sponsor</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">cc Program</a></li>
+<body id="about">
+    <section id="header">
+        <header>
+            <div class="mobile-hide">
+                <ul id="top">
+                    <li><a class="top-links" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="top-links" href="#" ><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="top-links" href="#">English</a></li>
+                    <li><a class="top-links" href="#">My Page</a></li>
+                    <li><a class="top-links" href="#">Logout</a></li>                
                 </ul>
-            </div>        
-        </nav>
-    </header>
-    <section>
-        <h1>Lorem ipsum dolor sit 2015</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis labore id eveniet a fuga tenetur sed, doloribus cum voluptatem velit! Doloribus tenetur excepturi necessitatibus atque quas accusantium sed laudantium cupiditate, praesentium vero dolorum fugit placeat maiores, ab voluptas numquam nostrum. Perspiciatis corporis quisquam officia beatae rem dolorum exercitationem a at?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, neque.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
-    </section> 
-    <section>
+            </div>
+            <nav>
+                    <a id="logo" href="#" class="mobile-hide"><img src="media/favicon_io/favicon.ico" alt="logo"></a>
+                    <a href="#"><i id="hum" class="fa fa-bars fa-3x"></i></a>
+                    <ul class="mobile-hide">
+                        <li class="nav-item"><a href="#">About</a></li>
+                        <li class="nav-item"><a href="#">Program</a></li>
+                        <li class="nav-item"><a href="#">Join</a></li>
+                        <li class="nav-item"><a href="#">Sponsor</a></li>
+                        <li class="nav-item"><a href="#">News</a></li>
+                        <li class="nav-item" id="nav-border"><a href="#">cc Program</a></li>
+                    </ul>     
+            </nav>
+        </header>
+        <section id="headline-section">
+            <div id="headline" class="orange"> 
+                <h2>"Hello, Sharing World!"</h2>              
+                <h1>CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+            </div>
+            <p id="par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quam beatae totam, doloremque minus in corporis cumque delectus modi distinctio aliquam, incidunt quod eligendi repudiandae impedit saepe. Modi suscipit libero recusandae eum commodi eveniet dolor incidunt nam enim eos, dicta at deserunt et consequuntur obcaecati porro beatae aliquid, provident dolores, reprehenderit saepe. Ab cumque eligendi cum earum labore beatae dolorum nobis vero laborum itaque eum laudantium voluptatem, perspiciatis, dolore nam eos unde! Earum ducimus error eius magnam, dignissimos ex, dolorum asperiores nostrum quasi culpa iste veniam ab natus corporis? Reprehenderit harum asperiores accusantium veniam explicabo, itaque sunt suscipit? Eaque, ullam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur </p>
+            <a href="mailto:sylvesterwamaya@gmail.com">sylvesterwamaya@gmail.com</a>
+        </section>
+    </section>   
+    <section id="logo-about">
         <h2>Lorem ipsum dolor sit amet</h2>
+        <hr>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae quaerat illum aliquam totam voluptate fugiat aut, deserunt nesciunt similique.</p>
         <img src="media/favicon_io/favicon.ico" alt="logo">
     </section>
-    <section>
+    <section id="pics-about">
         <h2>Lorem ipsum dolor sit amet</h2>
+        <hr>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae quaerat illum aliquam totam voluptate fugiat aut, deserunt nesciunt similique.</p>
-        <img src="media/favicon_io/favicon.ico" alt="logo">
-        <img src="media/favicon_io/favicon.ico" alt="logo">  
+        <div id="pics">
+            <img src="media/favicon_io/favicon.ico" alt="logo">
+            <img src="media/favicon_io/favicon.ico" alt="logo">  
+        </div>
     </section>
-    <footer>
+    <section id="patners">
+        <h2 class="heading">Lorem</h2>
+        <hr>
+        <ul>
+            <li class="pat-item">Safaricom</li>
+            <li class="pat-item">Equity Bank</li>
+            <li class="pat-item">CBK</li>
+            <li class="pat-item">CMA</li>
+            <li class="pat-item">Twitter</li>
+        </ul>
+    </section>
+    <footer id="about-footer">
         <img src="media/favicon_io/favicon.ico" alt="logo"> 
-        <p>Lorem ipsum dolor sit amet.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quas.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quas.</p>
+        </div>
+
     </footer>
     <script src="./script.js"></script>
 </body>
