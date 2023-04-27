@@ -135,13 +135,13 @@ footer div{
   text-align: center;
 }
 #about-footer{
-  background-color: #272a31;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
 }
-
+#headline-section a{
+  text-decoration: underline;
+    }
 
 @media only screen and (min-width: 768px) {
   #hum{
@@ -228,7 +228,7 @@ width: 10vw;
     width: 1vw;
     border: solid 1px #d3d3d3;
   }
-  #more{
+  #more, #about #patners{
     display: none;
   }
   #logo-about{
@@ -256,7 +256,11 @@ width: 10vw;
   #pics-about hr{
     margin-bottom: 1vw;
   }
-
+  #about-footer{
+    background-color: #272a31;
+    color: #fff;
+  }
+ 
 
 }
 
@@ -287,7 +291,7 @@ width: 10vw;
   }
 
   hr{
-    width: 3vw;
+    width: 5vw;
     margin: auto;
     border: solid 1px #ec5242;
     margin-top: 1vw;
@@ -300,10 +304,6 @@ width: 10vw;
   .heading {
     font-weight: 400;
     margin-bottom: 2.5vw;
-  }
-
-  hr {
-    width: 8vw;
   }
 
   .product {
@@ -400,27 +400,29 @@ width: 10vw;
     margin-left: 1vw;
   }
 
-  #patners,
+  #home #patners,
   footer {
     display: none;
   }
   #logo-about{
-    padding: 2vw 25vw;
+    padding: 5vw 20vw;
     border-bottom: solid 1px #d3d3d3;
   }
   #logo-about hr{
-    margin-bottom: 1vw;
+    margin-bottom: 1.5vw;
   }
   #logo-about img{
-    margin-top: 2vw;
-    padding: 2vw 5vw;
+    margin: 5vw 0 2vw 0;
+    padding: 5vw 10vw;
     border: solid 1px #d3d3d3;
   }
   #pics-about{
-    padding: 3vw 10vw 5vw 10vw;
+    padding: 5vw 7vw 5vw 7vw;
   }
   #pics-about img{
-    margin-right: 1vw;
+    margin-top: 3vw;
+    width: 100%;
+    height: auto;
   }
   #pics-about p{
     margin-bottom: 2vw;
@@ -438,4 +440,31 @@ width: 10vw;
     flex-direction: column;
     margin: 2.5vw;
   }
+
+  #about-footer img{
+    margin-right: 7vw;
+  }
+  #patners{
+    padding: 7vw 5vw;
+  }
+  #patners ul{
+flex-wrap: wrap;
+
+  }
+  .pat-item{
+    font-size: 50px;
+    margin-right: 5vw;
+  }
+  #about #headline h1{
+    margin-bottom: 8vw;
+  }
+ #about #headline h2{
+    margin-bottom: 2vw;
+  }
+
+ #about #headline-section #par{
+    padding: 3vw;
+    margin-bottom: 5vw;
+  }
+
 }
