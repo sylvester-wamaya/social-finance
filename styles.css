@@ -131,6 +131,18 @@ footer div{
   background-size: 50%
 }
 
+#about{
+  text-align: center;
+}
+#about-footer{
+  background-color: #272a31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+
 @media only screen and (min-width: 768px) {
   #hum{
     display: none;
@@ -219,6 +231,31 @@ width: 10vw;
   #more{
     display: none;
   }
+  #logo-about{
+    padding: 2vw 25vw;
+    margin: auto;
+    border-bottom: solid 1px #d3d3d3;
+  }
+  #logo-about hr{
+    margin-bottom: 1vw;
+  }
+  #logo-about img{
+    margin-top: 2vw;
+    padding: 2vw 5vw;
+    border: solid 1px #d3d3d3;
+  }
+  #pics-about{
+    padding: 3vw 10vw 5vw 10vw;
+  }
+  #pics-about img{
+    margin-right: 1vw;
+  }
+  #pics-about p{
+    margin-bottom: 2vw;
+  }
+  #pics-about hr{
+    margin-bottom: 1vw;
+  }
 
 
 }
@@ -244,12 +281,17 @@ width: 10vw;
   }
 
   #headline h1 {
-    font-size: 8vw;
-    line-height: 9vw;
+    font-size: 7vw;
+    line-height: 8vw;
     font-weight: 900;
   }
 
-
+  hr{
+    width: 3vw;
+    margin: auto;
+    border: solid 1px #ec5242;
+    margin-top: 1vw;
+  }
 
   #products {
     padding: 5vw 2.5vw;
@@ -361,5 +403,39 @@ width: 10vw;
   #patners,
   footer {
     display: none;
+  }
+  #logo-about{
+    padding: 2vw 25vw;
+    border-bottom: solid 1px #d3d3d3;
+  }
+  #logo-about hr{
+    margin-bottom: 1vw;
+  }
+  #logo-about img{
+    margin-top: 2vw;
+    padding: 2vw 5vw;
+    border: solid 1px #d3d3d3;
+  }
+  #pics-about{
+    padding: 3vw 10vw 5vw 10vw;
+  }
+  #pics-about img{
+    margin-right: 1vw;
+  }
+  #pics-about p{
+    margin-bottom: 2vw;
+  }
+  #pics-about hr{
+    margin-bottom: 1vw;
+  }
+
+
+  #about nav{
+    text-align: start;
+  }
+  #pics{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5vw;
   }
 }
