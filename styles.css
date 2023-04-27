@@ -163,9 +163,46 @@ footer div {
 #headline-section a {
   text-decoration: underline;
 }
+#nav-mobile{
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: fixed;
+  height: 100vh;
+  z-index: 50;
+  background-color: #272a31;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 5vw 3vw;
+  overflow-y: scroll;
+}
+#nav-mobile .nav-item{
+  color: #fff;
+  padding: 2vw;
+  margin-top: 5vw;
+  border-bottom: solid 1px #d3d3d3;
+  width: 90%;
+}
+#nav-mobile .nav-item a{
+  color: #fff;
+  font-size: 8vw;
+}
+#nav-mobile .nav-item i{
+ margin-left: 77vw;
+ color: #ec5242;
+}
+#nav-mobile .close{
+ border: none;
+ margin: 0;
+ }
+
 
 @media only screen and (min-width: 768px) {
   #hum {
+    display: none;
+  }
+  .desk-hide{
     display: none;
   }
 
