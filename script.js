@@ -148,7 +148,7 @@ patners.forEach((pat, item) => {
   patnersContainer.appendChild(patner);
 });
 
-const navbar = document.querySelector('nav');
+const navbar = document.querySelector('.bottom-nav');
 const sticky = navbar.offsetTop;
 
 function myFunction() {
