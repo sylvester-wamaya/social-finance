@@ -149,17 +149,17 @@ b {
 footer {
   padding: 3vw 10vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
 #footer-p {
-  text-align: start;
   margin-bottom: 0.5vw;
 }
 
 footer div {
-  width: 80%;
+  text-align: start;
+  margin: auto;
 }
 
 .images {
@@ -175,7 +175,7 @@ footer div {
 
 #about-footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
