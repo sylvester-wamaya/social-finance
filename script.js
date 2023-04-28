@@ -140,6 +140,9 @@ board.forEach((bod, item) => {
   </div>
   `;
   boardContainer.appendChild(boardMember);
+  if (item > 1) {
+    boardMember.classList.add('mobile-hide');
+  }
 });
 patners.forEach((pat, item) => {
   const patner = document.createElement('li');
@@ -148,7 +151,7 @@ patners.forEach((pat, item) => {
   patnersContainer.appendChild(patner);
 });
 
-const navbar = document.querySelector('nav');
+const navbar = document.querySelector('.bottom-nav');
 const sticky = navbar.offsetTop;
 
 function myFunction() {
