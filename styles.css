@@ -1,6 +1,7 @@
 body {
   margin: auto;
   font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
 
 * {
@@ -39,6 +40,11 @@ a {
   align-items: center;
   padding: 0.5vw 10vw;
   background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+}
+
+.bottom-nav {
+  padding: 0.5vw 10vw;
 }
 
 #top li {
@@ -84,6 +90,11 @@ nav ul {
   color: #ec5242;
 }
 
+.email {
+  color: #272a31;
+  font-weight: 600;
+}
+
 #header {
   background-image: url("media/sofi.jpg");
   background-repeat: no-repeat;
@@ -92,6 +103,16 @@ nav ul {
 
 footer img {
   margin-right: 3vw;
+}
+
+#par {
+  background-color: #fff;
+  border: solid 1px #d3d3d3;
+  color: #272a31;
+  font-size: 0.7rem;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "lato", sans-serif;
 }
 
 .pp img {
@@ -149,7 +170,7 @@ b {
 footer {
   padding: 3vw 10vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -159,7 +180,7 @@ footer {
 
 footer div {
   text-align: start;
-  margin: auto;
+  font-size: 0.7rem;
 }
 
 .images {
@@ -175,7 +196,7 @@ footer div {
 
 #about-footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
@@ -247,7 +268,7 @@ footer div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #d3d3d3;
+  color: #fff;
 }
 
 #a-img1 {
@@ -262,7 +283,7 @@ footer div {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #d3d3d3;
+  color: #fff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -278,8 +299,8 @@ footer div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10vw;
     background-color: #fff;
+    width: 100%;
   }
 
   .sticky {
@@ -289,7 +310,7 @@ footer div {
   }
 
   #headline-section {
-    padding: 10vw 40vw 10vw 10vw;
+    padding: 10vw;
   }
 
   #headline h1 {
@@ -297,6 +318,7 @@ footer div {
     font-weight: 900;
     line-height: 100%;
     margin-bottom: 2vw;
+    width: 50%;
   }
 
   #headline h2 {
@@ -309,10 +331,18 @@ footer div {
     font-size: 110%;
   }
 
+  .product p {
+    font-size: 0.7rem;
+  }
+
   #headline + p {
     border: solid 2px #fff;
+    background-color: #fffbfb;
+    color: #272a31;
     padding: 1vw;
     margin-bottom: 3vw;
+    width: 50%;
+    font-size: 0.7rem;
   }
 
   hr {
@@ -331,10 +361,10 @@ footer div {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
   }
 
   .product {
-    margin-right: 2px;
     width: 15vw;
     padding: 1.5vw 0.5vw;
   }
@@ -424,6 +454,10 @@ footer div {
     height: auto;
     margin-right: 5vw;
   }
+
+  #about #headline h1 {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -444,6 +478,10 @@ footer div {
 
   #headline {
     margin-bottom: 3vw;
+  }
+
+  .bottom-nav {
+    padding: 0;
   }
 
   #headline h1 {
@@ -471,16 +509,17 @@ footer div {
   .product {
     display: flex;
     align-items: center;
-    padding: 3vw 0 3vw 3vw;
+    padding: 10px;
+    gap: 15px;
     margin-bottom: 2vw;
   }
 
   .product img {
-    width: 5vw;
+    width: 15%;
   }
 
   .product p {
-    margin-left: 5vw;
+    width: 60%;
     text-align: start;
   }
 
@@ -488,11 +527,11 @@ footer div {
     margin-bottom: 2vw;
   }
 
-  .product img,
+  /* .product img,
   .product h2,
   .product p {
     margin-right: 3vw;
-  }
+  } */
 
   #headline h2 {
     font-weight: 400;
@@ -505,7 +544,8 @@ footer div {
   }
 
   .title {
-    font-size: 125%;
+    font-size: 1rem;
+    width: 25%;
   }
 
   #products h3 {
@@ -572,7 +612,7 @@ footer div {
   }
 
   #logo-about {
-    padding: 5vw 20vw;
+    padding: 5vw;
     border-bottom: solid 1px #d3d3d3;
   }
 
@@ -643,14 +683,14 @@ footer div {
   }
 
   #a-img {
-    height: 25vw;
-    width: 35vw;
+    height: 50vw;
+    width: 100%;
     margin-bottom: 2vw;
     margin-right: 0;
   }
 
   #a-img1 {
-    height: 25vw;
-    width: 35vw;
+    height: 50vw;
+    width: 100%;
   }
 }
