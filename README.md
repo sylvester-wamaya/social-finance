@@ -47,6 +47,8 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 
 2- CSS.
 
+3- Javascript.
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -81,9 +83,9 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-![Presentation video](https://www.loom.com/share/1f71b636d06e4da2839a2419fdd568d3)
+[Presentation video](https://www.loom.com/share/1f71b636d06e4da2839a2419fdd568d3)
 
-![Live demo link](https://sylvester-wamaya.github.io/social-finance/)
+[Live demo link](https://sylvester-wamaya.github.io/social-finance/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
