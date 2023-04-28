@@ -116,8 +116,8 @@ footer img {
 }
 
 .pp img {
-  width: 100%;
-  height: auto;
+  width: 100px;
+  height: 150px;
 }
 
 #logo img {
@@ -140,7 +140,6 @@ b {
 
 .pp {
   display: flex;
-  align-items: center;
   text-align: start;
 }
 
@@ -527,12 +526,6 @@ footer div {
     margin-bottom: 2vw;
   }
 
-  /* .product img,
-  .product h2,
-  .product p {
-    margin-right: 3vw;
-  } */
-
   #headline h2 {
     font-weight: 400;
   }
@@ -572,6 +565,7 @@ footer div {
 
   .pp .title {
     margin-bottom: 1vw;
+    width: 100%;
   }
 
   .pp hr {
@@ -692,5 +686,9 @@ footer div {
   #a-img1 {
     height: 50vw;
     width: 100%;
+  }
+  .pp img {
+    width: 100px;
+    height: 100px;
   }
 }
