@@ -1,99 +1,98 @@
 const products = [
   {
     id: 1,
-    icon: "media/favicon_io/favicon.ico",
-    product: "Investment",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?"
+    icon: "media/icons/save-money.png",
+    product: "Savings",
+    description: "Enjoy the simplicity of saving with the SoFi on real time basis, secure your future!"
   },
   {
     id: 2,
-    icon: "media/favicon_io/favicon.ico",
-    product: "Investment",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?"
+    icon: "media/icons/profits.png",
+    product: "Investments",
+    description: "Enjoy the simplicity of investing with the SoFi on real time basis, secure your future!"
   },
   {
     id: 3,
-    icon: "media/favicon_io/favicon.ico",
-    product: "Investment",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?"
+    icon: "media/icons/cycle.png",
+    product: "Lending",
+    description: "Enjoy the simplicity of lending with the SoFi on real time basis, secure your future!"
   },
   {
     id: 4,
-    icon: "media/favicon_io/favicon.ico",
-    product: "Investment",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?"
+    icon: "media/book-keeping.png",
+    product: "Budgeting",
+    description: "Enjoy the simplicity of budgeting with the SoFi on real time basis, secure your future!"
   },
   {
     id: 5,
-    icon: "media/favicon_io/favicon.ico",
-    product: "Investment",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?"
+    icon: "media/borrow.png",
+    product: "Borrowing",
+    description: "Enjoy the simplicity of borrowing with the SoFi on real time basis, secure your future!"
   }
 ]
 const board = [
   {
     id: 1,
-    image: "media/favicon_io/favicon.ico",
-    name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    image: "media/pps/p1.jpg",
+    name: "John Mwangi",
+    title: "Managing Director of Finserve Africa",
+    description: "John Mwangi was the master mind behind the famous financial inclusity campaign that rocked all over Africa and gave birth to the new era of Fintech."
   },
   {
     id: 2,
-    image: "media/favicon_io/favicon.ico",
+    image: "media/pps/p2.jpg",
     name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    title: "CEO of Safaricom, the Actuary and a software engineer.",
+    description: "Sylvester Wamaya was the master mind behind the famous digital campaign that rocked all over Africa and gave birth to the new era of Fintech."
   },
   {
     id: 3,
-    image: "media/favicon_io/favicon.ico",
-    name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    image: "media/pps/p3.jpg",
+    name: "Jane Mbita",
+    title: "A former minister of Finance in USA and former Navy seal.",
+    description: "Jane Mbita is the master mind behind the famous philantropic activities in East Africa and beyond, mainly focusing on SMES for all for growth."
   },
   {
     id: 4,
-    image: "media/favicon_io/favicon.ico",
-    name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    image: "media/pps/p4.jpg",
+    name: "Ryan Mike",
+    title: "CEO of Creative Commons, ex COO  of the Mozilla Foundation",
+    description: "Ryan had been leading open - source projects at the Mozilla Foundation such as the open source movement."
   },
   {
     id: 5,
-    image: "media/favicon_io/favicon.ico",
-    name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    image: "media/pps/p5.jpg",
+    name: "Julia Leda",
+    title: "President of Law Society of Kenya",
+    description: "Julia is a seasoned advocate of the high court, she specializes in criminal and corporate. She has been instrumental in formulating some of the financial crime laws"
   },
   {
     id: 6,
-    image: "media/favicon_io/favicon.ico",
-    name: "Sylvester Wamaya",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, rerum?",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda explicabo nemo reprehenderit velit delectus, vero quia commodi tempora vel. Voluptates."
+    image: "media/pps/p6.jpg",
+    name: "Edwin Ouma",
+    title: "The chairperson Edwin Ouma Mwangi is the spearheader of the mind for books movement in universities and underserved communities in Africa."
   }
 ]
 const patners = [
   {
     id: 1,
-    logo: "media/favicon_io/favicon.ico"
+    logo: "media/patners/p1.png"
   },
   {
     id: 2,
-    logo: "media/favicon_io/favicon.ico"
+    logo: "media/patners/p2.jpeg"
   },
   {
     id: 3,
-    logo: "media/favicon_io/favicon.ico"
+    logo: "media/patners/p3.jpeg"
   },
   {
     id: 4,
-    logo: "media/favicon_io/favicon.ico"
+    logo: "media/patners/p4.png"
   },
   {
     id: 5,
-    logo: "media/favicon_io/favicon.ico"
+    logo: "media/patners/p5.png"
   }
 ]
 
@@ -120,7 +119,7 @@ products.forEach((prod, item)=>{
   productDiv.innerHTML = `
 
   <img src="${products[item].icon}" alt="image">
-  <h2 class="${products[item].product}">Lecture</h2>
+  <h2 class="title orange">${products[item].product}</h2>
   <p>${products[item].description}</p>
   `
   productsContainer.appendChild(productDiv)
