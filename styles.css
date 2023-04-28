@@ -148,6 +148,7 @@ footer {
 
 footer div {
   text-align: start;
+  width: 100%;
 }
 
 #footer-p {
@@ -155,7 +156,7 @@ footer div {
   
 }
 footer div{
-  width: 50%;
+  width: 80%;
 }
 
 .images {
@@ -211,19 +212,50 @@ footer div{
  border: none;
  margin: 0;
  }
- .sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
  
- }
-
 #home  #headline h1{
   background-image: url("media/clip.jpg");
   -webkit-background-clip: text;
   background-position: bottom;
   color: transparent;
 }
+.pp img{
+  width: 100%;
+  height: auto;
+}
+#pics{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#a-img{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+  url('media/a1.jpeg');
+  height: 15vw;
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d3d3d3
+}
+#a-img1{
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+  url('media/a2.jpeg');
+  height: 15vw;
+  width: 25vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d3d3d3
+}
+
 @media only screen and (min-width: 768px) {
   #hum {
     display: none;
@@ -239,6 +271,13 @@ footer div{
     padding: 0 10vw;
     background-color: #fff;
   }
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+   }
+  
 
   #headline-section {
     padding: 10vw 40vw 10vw 10vw;
@@ -367,6 +406,12 @@ footer div{
   #about-footer {
     background-color: #272a31;
     color: #fff;
+  }
+  .pat-item{
+    max-width: 10vw;
+    width: 100%;
+    height: auto;
+    margin-right: 5vw;
   }
 }
 
@@ -566,9 +611,11 @@ footer div{
     flex-wrap: wrap;
   }
 
-  .pat-item {
-    font-size: 50px;
-    margin-right: 5vw;
+  .pat-item{
+    margin: 2vw 5vw 0 0;
+    width: 100%;
+    height: auto;
+    max-width: 20vw;
   }
 
   #about #headline h1 {
@@ -583,4 +630,20 @@ footer div{
     padding: 3vw;
     margin-bottom: 5vw;
   }
+  #pics{
+    flex-direction: column;
+  }
+  #a-img{
+  
+    height: 25vw;
+    width: 35vw;
+    margin-bottom: 2vw;
+    margin-right: 0;
+    
+  }
+  #a-img1{
+    height: 25vw;
+    width: 35vw;
+  }
+
 }
