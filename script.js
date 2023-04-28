@@ -70,7 +70,8 @@ const board = [
     id: 6,
     image: 'media/pps/p6.jpg',
     name: 'Edwin Ouma',
-    title: 'The chairperson Edwin Ouma Mwangi is the spearheader of the mind for books movement in universities and underserved communities in Africa.',
+    title: 'The chairperson of Reading club',
+    description: ' Edwin Ouma is the spearheader of the mind for books movement in universities and underserved communities in Africa.',
   },
 ];
 const patners = [
