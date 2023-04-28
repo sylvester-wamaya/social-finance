@@ -80,8 +80,10 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Watch the live demo at the following link: 
-https://www.loom.com/share/1f71b636d06e4da2839a2419fdd568d3
+
+![Presentation video](https://www.loom.com/share/1f71b636d06e4da2839a2419fdd568d3)
+
+![Live demo link](https://sylvester-wamaya.github.io/social-finance/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
