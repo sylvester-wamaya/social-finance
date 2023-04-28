@@ -141,7 +141,7 @@ board.forEach((bod, item) => {
   `;
   boardContainer.appendChild(boardMember);
   if (item > 1) {
-    boardMember.classList.add("mobile-hide")
+    boardMember.classList.add('mobile-hide');
   }
 });
 patners.forEach((pat, item) => {
