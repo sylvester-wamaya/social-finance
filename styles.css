@@ -28,6 +28,9 @@ a {
 .grey {
   color: rgba(0, 0, 0, 0.65);
 }
+.italic{
+  font-style: italic;
+}
 
 #top {
   display: flex;
@@ -65,11 +68,18 @@ nav ul {
   color: rgba(0, 0, 0, 0.75);
   font-weight: 600;
 }
+.nav-item a:hover {
+color: #ec5242;
+}
 
 #nav-border {
   margin-left: 5vw;
   border: solid 4px #ec5242;
   padding: 0.5vw 1vw;
+  
+}
+#nav-border a {
+  color: #ec5242;
 }
 
 #header {
@@ -79,7 +89,6 @@ nav ul {
 }
 
 footer img {
-  float: left;
   margin-right: 3vw;
 }
 
@@ -132,7 +141,9 @@ b {
 
 footer {
   padding: 3vw 10vw;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer div {
@@ -141,6 +152,10 @@ footer div {
 
 #footer-p {
   margin-bottom: 0.5vw;
+  
+}
+footer div{
+  width: 50%;
 }
 
 .images {
@@ -196,8 +211,19 @@ footer div {
  border: none;
  margin: 0;
  }
+ .sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+ }
 
-
+#home  #headline h1{
+  background-image: url("media/clip.jpg");
+  -webkit-background-clip: text;
+  background-position: bottom;
+  color: transparent;
+}
 @media only screen and (min-width: 768px) {
   #hum {
     display: none;
@@ -263,6 +289,9 @@ footer div {
     margin-right: 2px;
     width: 15vw;
     padding: 1.5vw 0.5vw;
+  }
+  .product:hover{
+    border: solid 1px #d3d3d3;
   }
 
   h3 {
