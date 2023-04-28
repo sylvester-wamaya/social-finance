@@ -614,6 +614,11 @@ footer div {
     margin-bottom: 1.5vw;
   }
 
+  .pp img {
+    width: 100px;
+    height: 100px;
+  }
+
   #logo-about img {
     margin: 5vw 0 2vw 0;
     padding: 5vw 10vw;
@@ -686,9 +691,5 @@ footer div {
   #a-img1 {
     height: 50vw;
     width: 100%;
-  }
-  .pp img {
-    width: 100px;
-    height: 100px;
   }
 }
