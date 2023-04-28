@@ -65,14 +65,13 @@ My Portfolio Website is a project that describes me as a programmer, my skills, 
 
 - Added HTML file.
 - Added style.css file.
-- Added header.
-- Added headline section.
-- Added Works section
-- Added About me section
-- Added Contact form section
+- Added Home HTML page
+- Added About HTML page
+- Added Event Listeners to the menu.
+- Added dynamic rendering of items to the HTML
+- Added Theme of the website
 - Added Footer.
 - Added responsivenes css.
-- Added animation
 - Added favicon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -111,7 +110,7 @@ Clone this repository to your desired folder:
 Run this command:
 
 ```sh
-git clone git@github.com:sylvester-wamaya/portfolio-website.git
+git clone git@github.com:sylvester-wamaya/social-finance.git
 ```
 
 
@@ -147,7 +146,7 @@ explorer.exe index.html
 ### Deployment
 
 The project is deployed by github pages under the following link:
-https://sylvester-wamaya.github.io/portfolio-website/
+https://sylvester-wamaya.github.io/social-finance/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,10 +167,11 @@ https://sylvester-wamaya.github.io/portfolio-website/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add Projects section.
-- [ ] Add mobile version menu.
+- [ ] Add Navigation bar HTML pages
+- [ ] Add eventlisteners to buttons
 - [ ] Add more styling.
-- [ ] Add Javascript to the project.
+- [ ] Add Javascript to products section
+- Add animation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,7 +198,8 @@ If you like this project give it a ⭐.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+I acknowledge the owner of the original web design of this project:
+Original web design by  Cindy Shin in Behance.
 
 I would like to thank Microverse for their continued support and inspiration.
 
